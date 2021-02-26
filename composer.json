@@ -164,6 +164,7 @@
             "bin/console lint:xliff translations",
             "bin/console doctrine:schema:validate --skip-sync -vvv --no-interaction"
         ],
+        "tests": "@kimai:tests-unit",
         "kimai:tests": "vendor/bin/phpunit tests/",
         "kimai:tests-unit": "vendor/bin/phpunit --exclude-group integration tests/",
         "kimai:tests-integration": "vendor/bin/phpunit --group integration tests/",
